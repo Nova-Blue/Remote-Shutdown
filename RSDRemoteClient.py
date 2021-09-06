@@ -24,7 +24,7 @@ def shutdown():
 def _parse_config_file():
     parameters_read = 0
     
-    f = open('ClientConfig.txt', 'r')
+    f = open('RSDClientConfig.txt', 'r')
 
     for line in f:
         line = line.strip()

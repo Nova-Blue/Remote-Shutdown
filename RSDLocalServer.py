@@ -30,7 +30,7 @@ def _start_server(port, key_location):
 def _parse_config_file():
     parameters_read = 0
     
-    f = open('ServerConfig.txt', 'r')
+    f = open('RSDServerConfig.txt', 'r')
 
     for line in f:
         line = line.strip()
