@@ -1,0 +1,10 @@
+#Client Setup File
+
+#Port
+50000
+
+#IP Address of Target PC
+192.168.x.x
+
+#Fernet Key Location
+C:\add\path\here

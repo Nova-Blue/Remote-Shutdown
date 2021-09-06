@@ -1,0 +1,7 @@
+#Server Setup File
+
+#Port
+50000
+
+#Fernet Key Location
+C:\add\path\here
