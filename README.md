@@ -6,6 +6,7 @@ Remote-Shutdown allows you to turn off a Windows computer over a network connect
 ## Usage
 
 You will need to run the RSDLocalServer.py file on the Windows machine you would like to shutdown remotely. For instance, I placed an entry for this file on Windows Task Scheduler to run at startup. Because of the way programs are ran from the Task Scheduler, you also need to specify the "Start in" parameter to point to the directory that the RSDServerConfig.txt file is stored:
+
 ![enter image description here](https://i.imgur.com/ph0BBrf.png)
 
 Once the server is running, you can simply use RSDRemoteClient.py to issue the shutdown command:
