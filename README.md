@@ -19,9 +19,3 @@ RSDRemoteClient.shutdown()
 **Important:** Ensure that you setup both config files and place in the same directory with their corresponding .py files before running!
 
 You have the option to run the provided FernetKeyGen.py script to generate and save a key to file, or you can use the [Fernet Documentation](https://cryptography.io/en/latest/fernet/) to implement your own solution.
-
-
-
-## Disclaimer
-
-This code is fully functional, however, it was developed for learning purposes and may not offer the full functionality or error handling as may be seen in other software.
